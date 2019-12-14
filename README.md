@@ -5,7 +5,7 @@ https://github.com/Aduen/ThreadedTimer.git
 
 Then create an Arduino project, and paste the following code :
 
-'''cpp
+```cpp
 #include <threadedtimer.h>
 
 ThreadedTimer t1;
@@ -32,4 +32,4 @@ void loop()
   delay(5000); //main loop delay does not affect the running Timers
     Serial.println("hello again");
 }
-'''
+```
